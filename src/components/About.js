@@ -36,7 +36,7 @@ export default function About() {
     <div className="accordion-item">
       <h2 className="accordion-header">
         <button className="accordion-button" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Accordion Item #1
+          Analyze Your text
         </button>
       </h2>
       <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -48,7 +48,7 @@ export default function About() {
     <div className="accordion-item">
       <h2 className="accordion-header">
         <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Accordion Item #2
+          Free to use
         </button>
       </h2>
       <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -60,7 +60,7 @@ export default function About() {
     <div className="accordion-item">
       <h2 className="accordion-header">
         <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Accordion Item #3
+          Browser Compatible
         </button>
       </h2>
       <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -70,10 +70,7 @@ export default function About() {
       </div>
     </div>
         </div>
-        <div className="Container my-3">
-        <button onClick={toggleStyle} type="button" className="btn btn-primary">{btntext}</button>
-        </div>
-      
+       
     </div>
   )
 }
